@@ -14,16 +14,20 @@ h1 {
 "deg" at beginning of"linear-gradient" determines direction of color gradient defaults to 180deg
 "%" symbol after color in "linear-gradient"" function determines percentage occupied by that color (color-stops)*/
 .red {
-    background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27))
+    background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0px 0px 20px 0px rgba(83, 14, 14, 0.8);
 }
 
+/* creating a shadow "box-shadow: xoffset yoffset blurRadius spreadRadius color; */
 .green {
-    background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0px 0px 20px 0px #3B7E20CC;
 }
 
 /*hsl "hue, saturation, lightness"*/
 .blue {
-    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%))
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0px 0px 20px 0px hsla(223, 59%, 31%, 0.8);
 }
 
 /* 2 padding values sets "padding-top" and "padding-bottom" to the first value and "padding-right" and left to the second value*/
@@ -32,7 +36,7 @@ h1 {
     padding: 10px 0;
 }
 
-/*goes over colors
+/* ".sleeve" goes over color markers
 "rgba" function works the same as rgb but uses "alpha" channel as opacity */
 .sleeve {
     width: 110px;
@@ -46,7 +50,7 @@ h1 {
     height: 25px;
   }
 
-/* now "cap" and "sleeve" appear ontop of one another instead of on a new line*/
+/* now ".cap" and ".sleeve" appear ontop of one another instead of on a new line*/
 .cap, .sleeve {
     display: inline-block;
 }
