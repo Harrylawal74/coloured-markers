@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+/* 2 margin values sets "margin-top" and "margin-bottom" to the first value and "margin-right" and left to the second value*/
+.marker {
+    background-color: red;
+    height: 25px;
+    width: 200px;
+    margin: 10px auto;
+
+}
