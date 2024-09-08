@@ -10,16 +10,17 @@ h1 {
 
 }
 
-.one {
-    background-color: rgb(127, 255, 0);
+.red {
+    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0))
 }
 
 .two {
-    background-color: rgb(0, 127, 255);
+    background-color: #007F00;
 }
 
+/*hsl "hue, saturation, lightness"*/
 .three {
-    background-color: rgb(255, 0, 127);
+    background-color: hsl(240, 100%, 50%)
 }
 
 /* 2 padding values sets "padding-top" and "padding-bottom" to the first value and "padding-right" and left to the second value*/
