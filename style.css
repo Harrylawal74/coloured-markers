@@ -50,7 +50,7 @@ h1 {
     height: 25px;
   }
 
-/* now ".cap" and ".sleeve" appear ontop of one another instead of on a new line*/
+/* now ".cap" and ".sleeve" appear ontop of one another instead of on a new line (block) or next to one another (inline)*/
 .cap, .sleeve {
     display: inline-block;
 }
